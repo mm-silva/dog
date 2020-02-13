@@ -1,0 +1,2 @@
+Select p.foto_pet, p.nome_pet, p.idade_pet, p.peso, p.tipo, d.nome from pet p inner join dono d on
+ p.id_dono = d.id_dono; 
